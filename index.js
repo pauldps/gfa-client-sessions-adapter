@@ -31,7 +31,6 @@ class ClientSessionsAdapter extends SessionAdapter {
       }
       // Changes to the session object will write SetCookie headers in response
       var session = req[this.name]
-      session['id'] = userRecord['id']
       var field
       for (field of this.expose) {
         session[field] = userRecord[field]
