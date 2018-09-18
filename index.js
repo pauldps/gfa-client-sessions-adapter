@@ -1,6 +1,6 @@
 'use strict'
 
-const {SessionAdapter} = require('@gf-apis/core/adapters/SessionAdapter')
+const {SessionAdapter} = require('@gfa/core/adapters/SessionAdapter')
 const ClientSessions = require('client-sessions')
 
 class ClientSessionsAdapter extends SessionAdapter {

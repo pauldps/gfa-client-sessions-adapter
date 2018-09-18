@@ -1,23 +1,23 @@
 {
-  "name": "@gf-apis/client-sessions-adapter",
-  "version": "0.1.0",
-  "description": "client-sessions adapter for @gf-apis components",
+  "name": "@gfa/client-sessions-adapter",
+  "version": "0.2.0",
+  "description": "client-sessions adapter for @gfa components",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gf-apis/client-sessions-adapter.git"
+    "url": "git+https://github.com/pauloddr/gfa-client-sessions-adapter.git"
   },
-  "author": "Panayotis Procopiou <gfapis@pauloddr.com>",
+  "author": "Panayotis Procopiou <gfa@pauloddr.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gf-apis/client-sessions-adapter/issues"
+    "url": "https://github.com/pauloddr/gfa-client-sessions-adapter/issues"
   },
-  "homepage": "https://github.com/gf-apis/client-sessions-adapter#readme",
+  "homepage": "https://github.com/pauloddr/gfa-client-sessions-adapter#readme",
   "dependencies": {
-    "@gf-apis/core": "github:gf-apis/core",
+    "@gfa/core": "github:pauloddr/gfa-core",
     "client-sessions": "0.8.0"
   },
   "devDependencies": {
