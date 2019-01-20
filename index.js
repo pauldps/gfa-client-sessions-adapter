@@ -51,7 +51,7 @@ class ClientSessionsAdapter extends SessionAdapter {
 
   data (req, res) {
     var session = req[this.name]
-    if (!session) {
+    if (!session || !session.id) {
       return null
     }
     var obj = {id: session.id}
